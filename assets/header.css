@@ -1,0 +1,22 @@
+.header {
+    width: 100%;
+}
+
+.header:hover .header__sub {
+    display: flex;
+}
+
+.header .header__main {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(106, 106, 107);
+    box-shadow: 2px 2px 4px #999;
+}
+
+.header .header__sub {
+    display: none;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(63, 62, 62);
+}
+
